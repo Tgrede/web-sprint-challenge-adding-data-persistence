@@ -14,6 +14,6 @@ exports.seed = function(knex) {
         {task_description: 'task G', task_notes: 'this is a task a task a task', task_completed: false, project_id: 3},
         {task_description: 'task H', task_notes: 'this is the a ksat', task_completed: false, project_id: 1},
         {task_description: 'task I', task_notes: 'this is the the last seeded task', task_completed: false, project_id: 2}
-      ]);
+      ]); 
     });
 };
