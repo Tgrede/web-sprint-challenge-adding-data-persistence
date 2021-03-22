@@ -4,7 +4,7 @@ const Tasks = require('./model')
 const router = express.Router()
 
 router.get('/', async (req, res, next) => {
-  try{
+  try{ 
     let data = await Tasks.getAll()
     data = data.map(task => {
       let formattedTask = {...task, task_completed: task.task_completed ? true: false }
